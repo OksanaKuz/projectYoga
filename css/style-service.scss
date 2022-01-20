@@ -1,0 +1,322 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-button {
+    background: #259385;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #259385;
+}
+
+body {
+    margin     : 0 auto;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+.header {
+height    : 85px;
+background: white;
+width: 100%;
+.logo {
+position: absolute;
+.logoPic {
+height: 80px;
+padding-top : 5px;
+padding-left: 175px;
+@media all and (max-width: 858px){
+padding-left: 135px;          
+} 
+@media all and (max-width: 500px){
+padding-left: 30px;          
+} 
+}
+}
+
+        .nav {
+            display: inline-block;
+            margin : 25px 0 25px 500px;
+            @media all and (max-width: 1071px) {
+            margin : 25px 0 25px 400px;
+            }
+            @media all and (max-width: 967px) {
+            margin : 25px 0 25px 300px;
+         }
+            @media all and (max-width: 867px){
+           margin: 25px 0 25px 290px;          
+           }
+            @media all and (max-width: 858px){
+                margin: 25px 0 25px 270px;          
+          }
+          @media all and (max-width:800px) {
+            margin: 25px 0 25px 235px;   
+                } 
+        @media all and (max-width: 500px){
+            margin : 25px 0 25px 148px;          
+        } 
+            a:hover {
+                box-shadow   : 0 0 5px 5px #edfbf9;
+                border-radius: 20px;
+                font-size: 18px;
+            }
+
+            .nav__item{
+                color          : black;
+                font-size      : 20px;
+                text-decoration: none;
+                padding-left   : 25px;
+                padding-right  : 25px;
+                display        : inline-block;
+                font-weight    : bold;
+@media all and (max-width:1113px) {
+    font-size: 17px;
+}
+            }
+        }
+    }
+    h1{
+        font-family: 'Merienda One', cursive;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .description{
+        font-family: 'Merienda One', cursive;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px; 
+        color: black; 
+    }
+    .blocksSection{
+background-image: url(../images/BG\ vector.png);
+height: 232px;  
+@media all and (max-width:500px) {
+    height: 805px;   
+    }  
+    .blocks{
+    margin: 0px 150px;
+    display: flex;  
+    justify-content: space-between;
+    @media all and (max-width:800px) {
+    margin: 0px 105px;  
+        }
+    @media all and (max-width:500px) {
+    flex-direction: column;  
+    }    
+       .blocks__hour, .blocks__area, .blocks__teachers, .blocks__tea{   
+        width: 100%;
+        background-color: white;
+        height: 200px;
+        margin: 15px; 
+        padding: 20px 0;
+        @media all and (max-width:1000px) {
+            border: 1px solid;
+            margin: 16px 0;
+        }
+        @media all and (max-width:500px) {
+            height: 160px;
+        }
+    .blocks__title{
+        font-family: 'Merienda One', cursive;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20px;
+        @media all and (max-width:800px) {
+    padding-top: 0; 
+    }
+    } 
+    .blocks__description{
+        
+        text-align: center;
+        padding: 0 10px;
+        
+    }   
+       }
+    }
+}
+.practice{
+    height: 200px;
+    margin: 20px 150px;
+    @media all and (max-width:800px) {
+        margin: 20px 105px;
+    height: 245px;
+    }
+    @media all and (max-width:500px) {
+    margin: 20px 25px;
+    }
+    .practice__description{
+        display: inline-block;
+        text-align: center;
+        padding: 20px 50px;
+        font-size: 15px;
+    @media all and (max-width:500px) {
+    padding: 20px 0px;
+    }
+    }
+}
+.title{
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+}
+.adress{
+    height: 300px;
+    margin: 20px 150px; 
+    @media all and (max-width:800px) {
+    height: 360px;
+    }
+    @media all and (max-width:500px) {
+    margin: 20px 50px; 
+    }
+    .accordionBody{
+    padding: 20px 0px;
+.accordion__title{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+}
+.accordion__description{
+    font-family: 'Heebo', sans-serif;
+    color: black;
+}
+    } 
+}
+.formAppointment{
+    height: 255px;
+    margin: 50px 150px 20px; 
+    @media all and (max-width:500px) {
+        margin: 50px 105px 20px; 
+        }
+    .formAppointment__block{
+ text-align: center;  
+ margin-top: 30px;
+    .formAppointment__name{
+        border-radius: 20px;
+        border: 3px solid #259385;
+        width: 400px;
+        height: 60px;
+        margin: 0 10px;
+        @media all and (max-width:500px) {
+        width: 275px;  
+            }    
+        }
+    .formAppointment__tel{
+        border-radius: 20px;
+        border: 3px solid #259385;
+        width: 400px;
+        height: 60px;
+        margin: 0 10px;
+        @media all and (max-width:800px) {
+        margin: 10px 10px;
+        }
+        @media all and (max-width:500px) {
+        width: 275px;  
+        } 
+    }
+    }
+    .formAppointment__button{
+        display: block;
+        border: none;
+        background-color: #259385;
+        color: white;
+        border-radius: 20px;
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+        margin: 20px auto;
+    @media all and (max-width:500px) {
+    height: 45px;  
+    }    
+    }
+}
+.footer {
+    height    : 247px;
+    background: url(../images/background\ \(1\).png);
+    width: 100%;
+    @media all and (max-width: 885px){
+       top: 3130px;          
+        } 
+        @media all and (max-width: 868px) {
+          position: static;
+         }
+    .footer__logoSection {
+        text-align : center;
+       padding-top: 80px;
+
+        .footer__logo {
+            height: 80px;
+            width : 100px;
+        }
+    }
+
+    .footer__nav {
+        text-align: center;
+        margin-top: 20px;
+
+        & a {
+            color          : black;
+            font-size      : 20px;
+            text-decoration: none;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        & a:hover {
+            text-decoration: underline;
+        }
+
+        .footer_item {
+            display: inline-block;
+
+            &::before {
+                content: "";
+                border-left: 1px solid black;
+                &:first-child{
+                    display: none;
+                }
+            }
+        }
+    }
+    .footer__social{
+        padding-top: 5px;
+        text-align: center;
+    }
+    .footer__item{
+     
+        height: 30px;
+        width: 30px;
+    }
+}
+.buttonUp{
+    border:2px solid rgb(78, 77, 77);
+    background:#259385;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    color:#333;
+    border-radius: 50px;
+    width: 55px;
+    height: 55px;
+@media all and (max-width:500px) {
+bottom: 75px; 
+} 
+   &:before {
+        content: '';
+        width: 25px;
+        height: 25px;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-left: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        transform: translate(-50%,-25%) rotate(
+      135deg);
+      }
+}

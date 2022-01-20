@@ -1,0 +1,376 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-button {
+  background: #259385;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #259385;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Heebo", sans-serif;
+}
+
+.header {
+  height: 85px;
+  background: white;
+  width: 100%;
+}
+.header .logo {
+  position: absolute;
+}
+.header .logo .logoPic {
+  height: 80px;
+  padding-top: 5px;
+  padding-left: 175px;
+}
+@media all and (max-width: 858px) {
+  .header .logo .logoPic {
+    padding-left: 135px;
+  }
+}
+@media all and (max-width: 500px) {
+  .header .logo .logoPic {
+    padding-left: 30px;
+  }
+}
+.header .nav {
+  display: inline-block;
+  margin: 25px 0 25px 500px;
+}
+@media all and (max-width: 1071px) {
+  .header .nav {
+    margin: 25px 0 25px 400px;
+  }
+}
+@media all and (max-width: 967px) {
+  .header .nav {
+    margin: 25px 0 25px 300px;
+  }
+}
+@media all and (max-width: 867px) {
+  .header .nav {
+    margin: 25px 0 25px 290px;
+  }
+}
+@media all and (max-width: 858px) {
+  .header .nav {
+    margin: 25px 0 25px 270px;
+  }
+}
+@media all and (max-width: 800px) {
+  .header .nav {
+    margin: 25px 0 25px 235px;
+  }
+}
+@media all and (max-width: 500px) {
+  .header .nav {
+    margin: 25px 0 25px 148px;
+  }
+}
+.header .nav a:hover {
+  box-shadow: 0 0 5px 5px #edfbf9;
+  border-radius: 20px;
+  font-size: 18px;
+}
+.header .nav .nav__item {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: inline-block;
+  font-weight: bold;
+}
+@media all and (max-width: 1113px) {
+  .header .nav .nav__item {
+    font-size: 17px;
+  }
+}
+
+h1 {
+  font-family: "Merienda One", cursive;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.description {
+  font-family: "Merienda One", cursive;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  color: black;
+}
+
+.blocksSection {
+  background-image: url(../images/BG\ vector.png);
+  height: 232px;
+}
+@media all and (max-width: 500px) {
+  .blocksSection {
+    height: 805px;
+  }
+}
+.blocksSection .blocks {
+  margin: 0px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+@media all and (max-width: 800px) {
+  .blocksSection .blocks {
+    margin: 0px 105px;
+  }
+}
+@media all and (max-width: 500px) {
+  .blocksSection .blocks {
+    flex-direction: column;
+  }
+}
+.blocksSection .blocks .blocks__hour, .blocksSection .blocks .blocks__area, .blocksSection .blocks .blocks__teachers, .blocksSection .blocks .blocks__tea {
+  width: 100%;
+  background-color: white;
+  height: 200px;
+  margin: 15px;
+  padding: 20px 0;
+}
+@media all and (max-width: 1000px) {
+  .blocksSection .blocks .blocks__hour, .blocksSection .blocks .blocks__area, .blocksSection .blocks .blocks__teachers, .blocksSection .blocks .blocks__tea {
+    border: 1px solid;
+    margin: 16px 0;
+  }
+}
+@media all and (max-width: 500px) {
+  .blocksSection .blocks .blocks__hour, .blocksSection .blocks .blocks__area, .blocksSection .blocks .blocks__teachers, .blocksSection .blocks .blocks__tea {
+    height: 160px;
+  }
+}
+.blocksSection .blocks .blocks__hour .blocks__title, .blocksSection .blocks .blocks__area .blocks__title, .blocksSection .blocks .blocks__teachers .blocks__title, .blocksSection .blocks .blocks__tea .blocks__title {
+  font-family: "Merienda One", cursive;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+@media all and (max-width: 800px) {
+  .blocksSection .blocks .blocks__hour .blocks__title, .blocksSection .blocks .blocks__area .blocks__title, .blocksSection .blocks .blocks__teachers .blocks__title, .blocksSection .blocks .blocks__tea .blocks__title {
+    padding-top: 0;
+  }
+}
+.blocksSection .blocks .blocks__hour .blocks__description, .blocksSection .blocks .blocks__area .blocks__description, .blocksSection .blocks .blocks__teachers .blocks__description, .blocksSection .blocks .blocks__tea .blocks__description {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.practice {
+  height: 200px;
+  margin: 20px 150px;
+}
+@media all and (max-width: 800px) {
+  .practice {
+    margin: 20px 105px;
+    height: 245px;
+  }
+}
+@media all and (max-width: 500px) {
+  .practice {
+    margin: 20px 25px;
+  }
+}
+.practice .practice__description {
+  display: inline-block;
+  text-align: center;
+  padding: 20px 50px;
+  font-size: 15px;
+}
+@media all and (max-width: 500px) {
+  .practice .practice__description {
+    padding: 20px 0px;
+  }
+}
+
+.title {
+  font-family: "Merienda One", cursive;
+  text-align: center;
+}
+
+.adress {
+  height: 300px;
+  margin: 20px 150px;
+}
+@media all and (max-width: 800px) {
+  .adress {
+    height: 360px;
+  }
+}
+@media all and (max-width: 500px) {
+  .adress {
+    margin: 20px 50px;
+  }
+}
+.adress .accordionBody {
+  padding: 20px 0px;
+}
+.adress .accordionBody .accordion__title {
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+}
+.adress .accordionBody .accordion__description {
+  font-family: "Heebo", sans-serif;
+  color: black;
+}
+
+.formAppointment {
+  height: 255px;
+  margin: 50px 150px 20px;
+}
+@media all and (max-width: 500px) {
+  .formAppointment {
+    margin: 50px 105px 20px;
+  }
+}
+.formAppointment .formAppointment__block {
+  text-align: center;
+  margin-top: 30px;
+}
+.formAppointment .formAppointment__block .formAppointment__name {
+  border-radius: 20px;
+  border: 3px solid #259385;
+  width: 400px;
+  height: 60px;
+  margin: 0 10px;
+}
+@media all and (max-width: 500px) {
+  .formAppointment .formAppointment__block .formAppointment__name {
+    width: 275px;
+  }
+}
+.formAppointment .formAppointment__block .formAppointment__tel {
+  border-radius: 20px;
+  border: 3px solid #259385;
+  width: 400px;
+  height: 60px;
+  margin: 0 10px;
+}
+@media all and (max-width: 800px) {
+  .formAppointment .formAppointment__block .formAppointment__tel {
+    margin: 10px 10px;
+  }
+}
+@media all and (max-width: 500px) {
+  .formAppointment .formAppointment__block .formAppointment__tel {
+    width: 275px;
+  }
+}
+.formAppointment .formAppointment__button {
+  display: block;
+  border: none;
+  background-color: #259385;
+  color: white;
+  border-radius: 20px;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  margin: 20px auto;
+}
+@media all and (max-width: 500px) {
+  .formAppointment .formAppointment__button {
+    height: 45px;
+  }
+}
+
+.footer {
+  height: 247px;
+  background: url(../images/background\ \(1\).png);
+  width: 100%;
+}
+@media all and (max-width: 885px) {
+  .footer {
+    top: 3130px;
+  }
+}
+@media all and (max-width: 868px) {
+  .footer {
+    position: static;
+  }
+}
+.footer .footer__logoSection {
+  text-align: center;
+  padding-top: 80px;
+}
+.footer .footer__logoSection .footer__logo {
+  height: 80px;
+  width: 100px;
+}
+.footer .footer__nav {
+  text-align: center;
+  margin-top: 20px;
+}
+.footer .footer__nav a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.footer .footer__nav a:hover {
+  text-decoration: underline;
+}
+.footer .footer__nav .footer_item {
+  display: inline-block;
+}
+.footer .footer__nav .footer_item::before {
+  content: "";
+  border-left: 1px solid black;
+}
+.footer .footer__nav .footer_item::before:first-child {
+  display: none;
+}
+.footer .footer__social {
+  padding-top: 5px;
+  text-align: center;
+}
+.footer .footer__item {
+  height: 30px;
+  width: 30px;
+}
+
+.buttonUp {
+  border: 2px solid #4e4d4d;
+  background: #259385;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  color: #333;
+  border-radius: 50px;
+  width: 55px;
+  height: 55px;
+}
+@media all and (max-width: 500px) {
+  .buttonUp {
+    bottom: 75px;
+  }
+}
+.buttonUp:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: translate(-50%, -25%) rotate(135deg);
+}
+
+/*# sourceMappingURL=style-service.css.map */
